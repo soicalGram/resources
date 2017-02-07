@@ -14,3 +14,4 @@ spring:
 logging:
   level: 
     com.lezhi.socialgram.dao: debug
+    org.springframework.data.mongodb.core: debug
