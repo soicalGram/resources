@@ -1,0 +1,15 @@
+spring:
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/social_gram
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: 1
+        min-idle: 0
+logging:
+  level: debug
