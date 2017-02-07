@@ -1,0 +1,21 @@
+spring:
+    data:
+      mongodb:
+        uri: mongodb://121.42.157.207:27017/social_gram
+    redis:
+      host: 121.42.157.207
+      port: 6379
+      database: 0
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: 1
+        min-idle: 0
+logging:
+  level: 
+    com.lezhi.socialgram.dao: debug
+    org.springframework.data.mongodb.core: debug
+    org.springframework.data.mongodb.repository: debug
+    org.springframework.data.mongodb.repository.support: debug
+    com.lezhi.socialgram.service.impl: debug
+    com.lezhi.socialgram.service: debug
