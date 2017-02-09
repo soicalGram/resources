@@ -1,4 +1,14 @@
 spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://121.42.157.207/openfire?useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: root
+        password: Lezhi123456
+        driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+        hibernate:
+          ddl-auto: update
+        show-sql: true
     data:
       mongodb:
         uri: mongodb://121.42.157.207:27017/social_gram
