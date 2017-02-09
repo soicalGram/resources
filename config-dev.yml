@@ -31,3 +31,4 @@ logging:
     com.lezhi.socialgram.service: debug
     org.springframework.data.redis.core: debug
     com.lezhi.socialgram: debug
+hashSetName: sys_param
