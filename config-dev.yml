@@ -29,3 +29,5 @@ logging:
     org.springframework.data.mongodb.repository.support: debug
     com.lezhi.socialgram.service.impl: debug
     com.lezhi.socialgram.service: debug
+    org.springframework.data.redis.core: debug
+    com.lezhi.socialgram: debug
