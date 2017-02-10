@@ -11,9 +11,9 @@ spring:
         show-sql: true
     data:
       mongodb:
-        uri: mongodb://121.42.157.206:27017/social_gram
+        uri: mongodb://121.42.157.207:27017/social_gram
     redis:
-      host: 121.42.157.206
+      host: 121.42.157.207
       port: 6379
       database: 0
       pool:
