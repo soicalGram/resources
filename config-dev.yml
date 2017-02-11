@@ -32,4 +32,4 @@ logging:
     org.springframework.data.redis.core: debug
     com.lezhi.socialgram: debug
 hashSetName: sys_param
-company: lezhiinfo
+company: 乐知信息
