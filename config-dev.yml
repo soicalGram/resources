@@ -1,17 +1,9 @@
 spring:
     datasource:
-        name: test
-        url: jdbc:mysql://121.42.157.207/openfire?useUnicode=true&characterEncoding=utf-8&useSSL=false
-        username: root
-        password: Lezhi123456
-        driver-class-name: com.mysql.jdbc.Driver
-    jpa:
-        hibernate:
-          ddl-auto: update
-        show-sql: true
-    data:
-      mongodb:
-        uri: mongodb://121.42.157.207:27017/social_gram
+        url: jdbc:postgresql://localhost:5432/postgres?useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: dz
+        password: 123456
+        driver-class-name: org.postgresql.Driver
     redis:
       host: 121.42.157.207
       port: 6379
@@ -23,13 +15,5 @@ spring:
         min-idle: 0
 logging:
   level: 
-    com.lezhi.socialgram.dao: debug
-    org.springframework.data.mongodb.core: debug
-    org.springframework.data.mongodb.repository: debug
-    org.springframework.data.mongodb.repository.support: debug
-    com.lezhi.socialgram.service.impl: debug
-    com.lezhi.socialgram.service: debug
-    org.springframework.data.redis.core: debug
-    com.lezhi.socialgram: debug
+    com.lezhi.social.gram.dao: debug
 hashSetName: sys_param
-company: Lezhi
